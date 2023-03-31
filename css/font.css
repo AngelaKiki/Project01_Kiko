@@ -1,0 +1,44 @@
+/* Set Font */
+@import url('/icofont/icofont.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+  font-family: 'Poppins', sans-serif; 
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 1rem;
+  color: var(--secondary-color);
+  letter-spacing: normal
+}
+
+h1{
+    font-size: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    padding: 1rem;
+    font-weight: 400px;
+    text-shadow: 2px 2px 1px #888; 
+  }
+  
+h2{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif; 
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+  
+h3{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif; 
+    color: var(--primary-color);
+    font-weight: 400;
+
+}
+
+p{
+    font-size: 0.8rem;
+    margin: 0.1rem 0;
+    color: var(--primary-color);
+}

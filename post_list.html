@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Photography Diary_BlogPost</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+  /* .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .post {
+    flex: 1;
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sidebar {
+    display: none;
+    flex-basis: 300px;
+  }
+  
+  .social img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .recent-posts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-posts a {
+    text-decoration: none;
+    color: #333;
+  } */
+/*   
+  .recent-posts a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (min-width: 390px) {
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+    }
+    .post {
+      flex-basis: 60%;
+    }
+  }
+  
+  @media screen and (min-width: 834px) {
+    .post {
+      flex-basis: 70%;
+    }
+  } */
+
+.main{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+}
+.post-detail{
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.post-detail.bigpic{
+  width: 100%;
+
+} 
+
+.bigpic {
+  width: 100%; 
+  max-width: 100%; 
+} 
+
+.bigpic img {
+  display: block;
+  width: 100%;
+  height: auto;
+} 
+</style>
+
+</style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+        <div class="logo">
+            <a href="/"><img src="/img/logo_pd.png" alt=""></a>
+            <h1>My Blog</h1>
+        </div>
+        <div class="nav">
+            <ul class="nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#search">&#x1F50D</a></li>
+            </ul>
+        </div>
+        <!-- <div class="mobile-menu">
+            <i class="icofont-navigation-menu"></i>
+        </div> -->
+    </div>
+  </header>
+  <section class="hero">
+        <div class="bg-img"></div>
+        <div class="blog-content">
+            <div class="poem">
+                <blockquote>
+                    <span>Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever... it remembers little things, long after you have forgotten everything.
+                    <br><br>- Aaron Siskind</span>
+                </blockquote>
+            </div>
+        </div>
+  </section>
+  <main>
+    <article class="post-detail">
+      <h2>Blog Post Title</h2>
+      <div class="bigpic">
+        <img src="img/4.jpg" alt="Example image">
+      </div>
+      <div class="detail">
+      <p class="date">Published on March 28, 2023</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corrupti ex voluptatum doloremque, animi neque officiis cum accusantium illo expedita quo assumenda! Eos vitae unde blanditiis totam doloremque impedit culpa, illum laborum facere et. Accusamus exercitationem similique ab quam dolorum, cupiditate fugiat animi qui nihil temporibus necessitatibus ipsa repellendus veritatis ut repudiandae velit, expedita dignissimos eius aperiam unde minus impedit nisi! Reiciendis deleniti hic voluptatem maxime? Distinctio numquam quae architecto, consequuntur fuga fugiat perspiciatis vel autem quis unde voluptas ullam alias at molestiae quos? Omnis incidunt ducimus, quis, pariatur, ab magni earum totam quia et dolor numquam reprehenderit. Autem, tenetur?</p>
+      </div>
+    </article>
+    <aside>
+      <div class="aside">
+          <h2>Latest Blog Posts</h2>
+
+          <div class="post-box">
+              <div class="thumbs">
+                  <img src="/img/4.jpg" alte="">
+              </div>
+              <div class="title-box">
+                  <h3>Blog Post Title</h3>
+                  <p class="date">Published on March 28, 2023</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corrupti ex voluptatum doloremque...</p>
+                  <a href="">learn more...</a>
+              </div>
+          </div>
+      </div>
+      <form>
+        <h2>Subscribe to our blog</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <input type="submit" value="Subscribe">
+      </form>
+    </aside>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2023 The Photography Diary. All rights reserved.</p>
+  </footer>
+</body>
+</html>
