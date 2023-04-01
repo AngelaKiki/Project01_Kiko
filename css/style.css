@@ -105,10 +105,13 @@ position: relative;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.hero span{
+.hero p{
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
+  /* font-weight: bold; */
+  font-style: italic;
+  /* text-decoration: underline; */
 
 }
 
@@ -227,13 +230,19 @@ cursor: pointer;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 
 }
-.post-detail.bigpic{
-  width: 100%;
+.detail{
+padding:1rem 0;
 
-} 
+
+}
+
+.post-detail .bigpic{
+  width: 100%;
+  margin: 0.5rem;
+  } 
 
 .bigpic {
   width: 100%; 
@@ -245,6 +254,64 @@ cursor: pointer;
   width: 100%;
   height: auto;
 } 
+
+
+.bio{  
+  /* display: flex;
+  align-items: center;
+  margin: 0; */
+  padding: 1rem; 
+  border: 1px solid var(--primary-color);
+  background-color: var(--background-color);
+  border-radius: 15px;
+}
+
+.author{display: flex;
+  align-items: center;
+  margin: 0; }
+
+.bio-details{
+  margin:1rem ;
+}
+/* .bio .author{
+  flex:1;
+}
+
+.bio .socials{
+  flex:2;
+  padding: 0 1rem;
+  align-items:baseline;  
+} */
+
+.bio .author img{
+  max-width: 110px;
+  border-radius: 50%;
+}
+.socials a{
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.socials{
+  padding: 1rem 2rem;
+
+}
+.icofont-twitter,
+.icofont-facebook,
+.icofont-linkedin{
+  font-size: 26px;
+
+}
+.info{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.info-bio{
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+
 
 
 
