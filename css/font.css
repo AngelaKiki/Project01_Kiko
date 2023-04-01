@@ -1,5 +1,5 @@
 /* Set Font */
-@import url('/icofont/icofont.min.css');
+@import url('../icofont/icofont.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
